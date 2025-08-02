@@ -1,6 +1,6 @@
 # Binary-Search-Algorithm
 
-This repository contains **Binary Search Algorithm** questions solved in **Java**.  
+This repository contains **Binary Search Algorithm** questions solved in **Java**.   
 Each solution is well-optimized and follows best coding practices.
 
 ## 📌 Topics Covered
