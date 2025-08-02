@@ -5,7 +5,7 @@ Each solution is well-optimized and follows best coding practices.
 
 ## 📌 Topics Covered
 - Standard Binary Search
-- First and Last Occurrence of an Element
+- First and Last Occurrence of an Element 
 - Search in Rotated Sorted Array
 - Find Peak Element
 - Square Root using Binary Search
