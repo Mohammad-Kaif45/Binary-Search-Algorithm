@@ -5,7 +5,7 @@ public class KoKoEatBanana {
         int low = 1, high = findMax(v);
         //apply binary search: 
         while (low <= high) {
-            int mid = (low + high) / 2;
+            int mid = (low + high) / 2; 
             int totalH = calculateTotalHours(v, mid);
             if (totalH <= h) {
                 high = mid - 1;
@@ -42,4 +42,5 @@ public class KoKoEatBanana {
         System.out.println("Koko should eat at least " + ans + " bananas/hr.");
     }
 }
+
 
