@@ -16,7 +16,7 @@ public class KoKoEatBanana {
         return low;
     }
 
-    public static int calculateTotalHours(int[] v, int hourly) {
+    public static int calculateTotalHours(int[] v, int hourly) { 
         int totalH = 0;
         int n = v.length;
         //find total hours:
@@ -42,5 +42,6 @@ public class KoKoEatBanana {
         System.out.println("Koko should eat at least " + ans + " bananas/hr.");
     }
 }
+
 
 
