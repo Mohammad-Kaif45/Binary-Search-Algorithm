@@ -2,7 +2,7 @@ package com.java.binarySearch;
 
 public class KoKoEatBanana { 
     public static int minimumRateToEatBananas(int[] v, int h) {
-        int low = 1, high = findMax(v);
+        int low = 1, high = findMax(v); 
         //apply binary search: 
         while (low <= high) {
             int mid = (low + high) / 2; 
@@ -42,6 +42,7 @@ public class KoKoEatBanana {
         System.out.println("Koko should eat at least " + ans + " bananas/hr.");
     }
 }
+
 
 
 
