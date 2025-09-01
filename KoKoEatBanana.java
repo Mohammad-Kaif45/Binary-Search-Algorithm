@@ -8,7 +8,7 @@ public class KoKoEatBanana {
             int mid = (low + high) / 2; 
             int totalH = calculateTotalHours(v, mid); 
             if (totalH <= h) {
-                high = mid - 1;
+                high = mid - 1; 
             } else {
                 low = mid + 1;
             }
@@ -42,6 +42,7 @@ public class KoKoEatBanana {
         System.out.println("Koko should eat at least " + ans + " bananas/hr.");
     }
 }
+
 
 
 
