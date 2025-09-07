@@ -5,7 +5,7 @@ public class MinimumInRotatedSortedArray {
         int n = arr.length;
         int low = 0;
         int high = n - 1;
-        int minValue = Integer.MAX_VALUE;
+        int minValue = Integer.MAX_VALUE; 
         int index = -1;
         while(low <= high){
             int mid = low + (high - low) / 2;
@@ -24,3 +24,4 @@ public class MinimumInRotatedSortedArray {
         System.out.println("The minimum element is : " + minimum(arr));
     }
 }
+
